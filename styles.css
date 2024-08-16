@@ -1,0 +1,79 @@
+
+
+body {
+    background-image: url("back.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-sq {
+    display: flex;
+    width: 400px;
+    height: 630px;
+    background-color: white;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.other-s {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#tit {
+    text-align: center;
+    font-weight: bold;  
+    margin-top: 30px;  
+}
+
+.log-info {
+    margin-top: 26px;
+    margin-left: 50px;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+#input-log {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+#forgotpass {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 48px;
+    font-size: 14px;
+}
+
+.log-sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#log-btn {
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#or-s {
+    font-size: 14px;
+}
+
