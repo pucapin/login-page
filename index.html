@@ -7,27 +7,33 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="login-sq">
         <div id="tit">
-            <h1> Login </h1>
+            <h1 class="primary"> Login </h1>
         </div>
         <div>
             <p class="log-info"> Username </p>
-            <input id="input-log">
+            <input type="text" placeholder="Type your username">
             <p class="log-info"> Password </p>
-            <input id="input-log">
+
+            <input placeholder="Type your password" type="text">
+
             <p id="forgotpass"> Forgot password? </p>
         </div>
         <div class="log-sec"> 
-            <button id="log-btn"> LOGIN </button>
+            <button id="log-btn" class="btn-font"> LOGIN </button>
             <p id="or-s"> Or sign up Using </p>
+            <div class="img-sec">
+                <img src="GUGUL.png" id="img-si">
+                <img src="twt.png" id="img-si">
+            </div>
         </div>
         <div class="other-s">
-            <p> Or sign up Using </p>
+            <p id="or-s"> Or sign up Using </p>
             <p> SIGN UP </p>
         </div>
     </div>

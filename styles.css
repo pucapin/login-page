@@ -1,20 +1,31 @@
 
 
 body {
-    background-image: url("back.jpg");
+    background: rgb(255,205,133);
+    background: linear-gradient(90deg, rgba(255,205,133,1) 15%, rgba(167,223,255,1) 56%, rgba(170,95,255,1) 87%);
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.primary {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color:rgb(32, 32, 32);
 }
 .login-sq {
     display: flex;
     width: 400px;
-    height: 630px;
+    height: 700px;
     background-color: white;
     flex-direction: column;
-    margin-top: 40px;
-    margin-bottom: 40px;
     border-radius: 8px;
 }
 
@@ -36,10 +47,10 @@ body {
     margin-top: 26px;
     margin-left: 50px;
     margin-bottom: 4px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
-#input-log {
+input {
     margin-left: 50px;
     margin-right: 50px;
     width: 300px;
@@ -48,11 +59,18 @@ body {
     border-bottom: 2px solid rgb(194, 194, 194);
 }
 
+input::placeholder {
+    opacity: 60%;
+    font-family: "Inter", sans-serif;
+}
+
+
 #forgotpass {
     display: flex;
     justify-content: flex-end;
     margin-right: 48px;
-    font-size: 14px;
+    font-size: 13px;
+    opacity: 80%;
 }
 
 .log-sec {
@@ -67,13 +85,28 @@ body {
     width: 300px;
     border-radius: 30px;
     border: none;
-    background-color: lightblue;
+    background: rgb(255,206,180);
+    background: linear-gradient(90deg, rgba(255,206,180,1) 3%, rgba(118,205,255,1) 50%, rgba(179,113,255,1) 77%);
     color: white;
-    font-size: 14px;
-    font-weight: bold;
     margin-bottom: 30px;
 }
+.btn-font {
+    font-size: 15px;
+    font-weight: 600;
+}
 #or-s {
-    font-size: 14px;
+    font-size: 13px;
 }
 
+#img-si {
+    height: 45px;
+    width: 45px;
+    margin: 7px;
+}
+
+.other-s {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 5px;
+    line-height: 4px;
+}
