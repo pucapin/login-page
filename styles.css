@@ -51,12 +51,31 @@ body {
 }
 
 input {
-    margin-left: 50px;
+    margin-left: 0;
     margin-right: 50px;
     width: 300px;
     height: 30px;
     border: none;
     border-bottom: 2px solid rgb(194, 194, 194);
+}
+input[type="text"]:focus {
+
+    outline: none;
+}
+i {
+    height: 17px;
+    line-height: 0;
+    margin-top: 10px;
+    margin-right: 3px;
+    opacity: 50%;
+    margin-bottom: 4px;
+}
+.input-area {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: flex-start;
+    
 }
 
 input::placeholder {

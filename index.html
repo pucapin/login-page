@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/2d225708f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="login-sq">
@@ -16,12 +16,19 @@
             <h1 class="primary"> Login </h1>
         </div>
         <div>
+
             <p class="log-info"> Username </p>
-            <input type="text" placeholder="Type your username">
+            <div class="input-area">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Type your username">
+            </div>
+
+
             <p class="log-info"> Password </p>
-
-            <input placeholder="Type your password" type="text">
-
+            <div class="input-area">
+                <i class="fa-solid fa-lock"></i>
+                <input placeholder="Type your password" type="text">
+            </div>
             <p id="forgotpass"> Forgot password? </p>
         </div>
         <div class="log-sec"> 
