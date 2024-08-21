@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: rgb(126,208,255);
+    background: linear-gradient(180deg, rgba(126,208,255,1) 13%, rgba(53,101,214,1) 77%);
+}
+.white-box {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 80%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.signup {
+    width: 40%;
+    margin: 30px;
+}
+
+
+.bg-img {
+    background-image: url(penguins.jpeg);
+    background-position: right;
+    width: 70%;
+    height: 100%;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+#icon {
+    height: 50px;
+    width: 50px;
+    margin: 14px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#tom-nook {
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+.scam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-square {
+    width: 80%;
+    height: 40px; 
+    border-radius: 5px;
+    border-color: lightgrey;
+    margin: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 20px;
+    height: 20px;
+}
+.icons i {
+    position: absolute;
+}
+
+#icon-u {
+    margin-top: 50px;
+    margin-left: 50px;
+    opacity: 70%;
+
+}
+#icon-l {
+    margin-top: 125px;
+    margin-left: 50px;
+    opacity: 70%;
+}
+
+#icon-k {
+    margin-top: 195px;
+    margin-left: 50px;
+    opacity: 70%;
+}
+
+.forgot-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#login-btn {
+    height: 40px;
+    width: 170px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(57, 93, 255);
+    color: white;
+    font-size: 16px;
+}
+#fp-text {
+    margin-top: 20px;
+}
+
+#pingu-nobg {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+
+}
+
+#terror {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+}
